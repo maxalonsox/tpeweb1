@@ -1,0 +1,908 @@
+/*------------------------CELULAR------------------------*/
+* {
+    margin: 0;
+}
+
+body {
+    background: #F994B2;
+}
+
+/*------------------------NAV------------------------*/
+
+.nav {
+    background-color: rgba(255, 255, 255, 25%);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav #myLinks {
+    display: none;
+}
+
+.nav a.linkMenu{
+    color: white;
+    padding: 14px 7px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-style: normal;
+    font-weight: 750;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.nav div.icon {
+    color: white;
+    font-size: 25px;
+    padding: 14.5px 17px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.nav a.linkMenu:hover {
+    color: black;
+}
+
+.nav div.icon:hover {
+    background-color: rgb(255,255,255,25%);
+    color: black;
+}
+
+
+.tituloNav {
+    font-size: 40px;
+    color: white;
+    font-family: 'Itim', cursive;
+    font-style: normal;
+    line-height: 58px;
+    text-shadow: 4px 4px 0px black;
+    text-decoration: none;
+}
+
+.divLinkMenu {
+    display: flex;
+    align-items: center;
+}
+
+.logoLink {
+    color: white;
+    width: 18px;
+    height: 18px;
+}
+
+/*------------------------FOOTER------------------------*/
+
+footer {
+    background-color: rgba(255, 255, 255, 25%);
+    display: flex;
+    width: 100%;
+    height: 40px;
+}
+
+.divTextoSocial {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.divLogosSocial {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.divLogoSocial {
+    margin-top: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.logoSocial {
+    color: white;
+    width: 20px;
+    height: 20px;
+}
+
+.logoSocial:hover {
+    color: black;
+}
+
+.textoSocial {
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    font-style: normal;
+    font-weight: 750;
+    margin-left: 10px;
+}
+
+/*------------------------HOME------------------------*/
+
+.containerHome {
+    width: 100%;
+}
+
+.bloqueHome {
+    width: 100%;
+    height: 175px;
+    display: flex;
+}
+
+.containerImgHome {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divFraseHome {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.fraseHome {
+    color: black;
+    font-family: 'Julius Sans One', sans-serif;
+    text-shadow: 2px 2px 0px white;
+    font-size: 30px;
+}
+
+.imgHome {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/*------------------------TABLA------------------------*/
+
+.containerTabla {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fondoTabla {
+    background-color: rgb(255,255,255,25%);
+    width: 96%;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+h2.tituloReseñas {
+    color: black;
+    font-family: 'Julius Sans One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-shadow: 0px 4px 4px rgb(0,0,0,25%);
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.formReseñas {
+    display: flex;
+    flex-direction: row;
+}
+
+.inputCancion {
+    background-color: rgb(255,255,255,25%);
+    color: black;
+    width: 100px;
+    height: 20px;
+    font-size: 12px;
+    padding-left: 5px;
+    border: solid 1px white;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 3px;
+}
+
+.inputPuntaje {
+    background-color: rgb(255,255,255,25%);
+    color: black;
+    width: 30px;
+    height: 20px;
+    font-size: 12px;
+    border: solid 1px white;
+    border-radius: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.inputComentario {
+    background-color: rgb(255,255,255,75%);
+    color: black;
+    width: 100px;
+    height: 40px;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 12px;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+.btnAgregar {
+    background-color: rgb(255,255,255,0%);
+    color: white;
+    font-size: 17px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    margin-right: 5px;
+    margin-left: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnAgregar:hover {
+    font-size: 20px;
+}
+
+.btnAgregar3 {
+    background-color: rgb(255,255,255,0%);
+    color: black;
+    font-size: 25px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnAgregar3:hover {
+    font-size: 28px;
+}
+
+.vaciarTabla {
+    background-color: rgb(255,255,255,0%);
+    color: red;
+    font-size: 17px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    margin-right: 5px;
+    margin-left: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vaciarTabla:hover {
+    font-size: 20px;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    position: absolute;
+}
+
+table {
+    position: relative;
+}
+
+tr.maximoPuntaje {
+    background-color: rgb(0,0,0,25%);
+}
+
+th.encabezadoTabla {
+    color: black;
+    font-family: 'Julius Sans One',sans-serif;
+    font-size: 15px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+th.cancionTabla {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 10px;
+    font-weight: 100;
+    padding-left: 5px;
+}
+
+th.puntajeTabla {
+    color: black;
+    font-size: 8px;
+}
+
+th.comentarioTabla textarea{
+    background-color: rgb(255,255,255,75%);
+    color: black;
+    width: 110px;
+    font-size: 9px;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+th.accionTabla button{
+    font-size: 13px;
+    background-color: rgb(0,0,0,0%);
+    border: none;
+}
+
+th.accionTabla button:hover {
+    font-size: 15px;
+}
+
+/*------------------------ALBUMS------------------------*/
+
+.containerAlbums {
+    width: 100%;
+}
+
+.divAlbum {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portadaAlbum {
+    width: 315px;
+    height: 315px;
+    margin-top: 25px;
+}
+
+.fechaAlbum {
+    color: black;
+    font-family: 'Julius Sans One', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    text-shadow: 0px 4px 4px rgb(0,0,0,80%);
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.nombreAlbum {
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    font-style: normal;
+    font-size: 35px;
+    font-weight: 900;
+    text-shadow: 0px 4px 4px rgb(0,0,0,80%);
+    margin-bottom: 10px;
+}
+
+.tracks {
+    color: black;
+    font-family: 'Julius Sans One', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    text-shadow: 0px 4px 4px rgb(0,0,0,80%);
+    margin-left: -270px;
+    margin-bottom: 5px;
+}
+
+li.track{
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 20px;
+    text-shadow: 0px 4px 4px rgb(0,0,0,80%);
+    margin-left: -20px;
+    margin-bottom: 3px;
+}
+
+/*------------------------SHOWS------------------------*/
+
+.containerShowsNewsletter {
+    width: 100%;
+    text-align: center;
+}
+
+.containerShows {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1.tituloShows {
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    text-shadow: 0px 4px 4px rgb(0,0,0,25%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.divShow {
+    background-color: rgb(255,255,255,40%);
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p.fechaShow {
+    color: black;
+    font-family: 'Julius Sans One', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+p.ciudadShow {
+    color: black;
+    font-family: 'Julius Sans One', sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+p.lugarShow {
+    color: black;
+    font-family: 'Julius Sans One', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+p.infoShow {
+    color: black;
+    font-family: 'Julius Sans One', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/*------------------------NEWSLETTER------------------------*/
+
+.containerNewsletter {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fondoNewsletter {
+    background-color: rgba(255,255,255,40%);
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h1.tituloNewsletter {
+    color: black;
+    font-family: 'Julius Sans One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 10px;
+}
+
+div.email {
+    background-color: rgba(249, 148, 178, 0.5);
+    border: 1px solid white;
+    border-radius: 8px;
+    display: inline-flex;
+    width: 250px;
+    height: 25px;
+    text-align: center;
+    justify-content: center;
+}
+
+.inputEmail {
+    background-color: rgba(255,255,255,0%);
+    color: white;
+    width: 200px;
+    height: 23px;
+    font-size: 13px;
+    padding-left: 10px;
+    border: none;
+    border-left: 1px solid white;
+}
+
+div.captcha {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.inputCaptcha {
+    background-color: rgba(249, 148, 178, 0.5);
+    color: white;
+    width: 125px;
+    height: 23px;
+    font-size: 13px;
+    padding-left: 10px;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+.textoCaptcha {
+    color: rgba(0, 0, 0, 70%);
+    font-family: 'Arimo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 10px;
+    text-align: center;
+    margin-top: 17px;
+}
+
+.botonEnviar {
+    background: #FDF9C4;
+    color:rgba(0, 0, 0, 70%);
+    margin-top: 7px;
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    height: 30px;
+    width: 100px;
+    border: 1px solid rgba(0, 0, 0, 70%);
+    border-radius: 8px;
+}
+
+#p-resultado {
+    margin-top: 10px;
+}
+
+.logoemail {
+    color: white;
+    margin-top: 4px;
+    margin-right: 6px;
+}
+
+/*------------------------STORE------------------------*/
+
+.containerStore {
+    width: 100%;
+    display: flex;
+}
+
+.bloqueStore {
+    width: 50%;
+}
+
+.divProductoStore {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgStore {
+    width: 125px;
+    height: 170px;
+    margin-top: 20px;
+}
+
+.nombreProductoStore {
+    color: black;
+    font-family: 'Julius Sans One', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 590;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.precioProductoStore {
+    color: rgba(0,0,0,75%);
+    font-family: 'Julius Sans One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+@media screen and (min-width: 950px) {
+    /*------------------------ESCRITORIO------------------------*/
+    * {
+        margin: 0;
+    }
+    
+    .container {
+        display: flex;
+    }
+
+    /*------------------------NAV------------------------*/
+
+    .nav {
+        width: 280px;
+        justify-content: start;
+    }
+
+    .nav #myLinks {
+        display: block;
+        margin-top: 150px;
+    }
+
+    .nav div.icon {
+        display: none;
+    }
+
+    .nav a.linkMenu{
+        padding: 18px 7px;
+        font-size: 14px;
+    }
+
+    .tituloNav {
+        font-size: 60px;
+        margin-top: 75px;
+    }
+
+    /*------------------------HOME------------------------*/
+
+    .containerHome {
+        display: flex;
+        height: 300px;
+    }
+
+    .bloqueHome {
+        height: 300px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    /*------------------------TABLA------------------------*/
+
+    .containerTabla {
+        margin-top: 85px;
+    }
+
+    h2.tituloReseñas {
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+
+    .inputCancion {
+        width: 175px;
+        height: 25px;
+        font-size: 15px;
+        margin-right: 70px;
+    }
+    
+    .inputPuntaje {
+        width: 50px;
+        height: 25px;
+        font-size: 15px;
+        margin-right: 70px;
+    }
+    
+    .inputComentario {
+        width: 200px;
+        height: 60px;
+        font-size: 15px;
+        margin-right: 70px;
+    }
+    
+    .btnAgregar {
+        font-size: 25px;
+        margin-right: 30px;
+    }
+    
+    .btnAgregar:hover {
+        font-size: 30px;
+    }
+    
+    .btnAgregar3 {
+        font-size: 35px;
+        margin-right: 30px;
+    }
+
+    .tooltiptext {
+        margin-bottom: 110px;
+        background-color: rgb(255,255,255,50%);
+        color: black;
+        border-radius: 6px;
+        font-family: 'Julius Sans One';
+        padding: 10px;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+    
+    .btnAgregar3:hover {
+        font-size: 40px;
+    }
+    
+    .vaciarTabla {
+        font-size: 25px;
+        margin-right: 30px;
+    }
+    
+    .vaciarTabla:hover {
+        font-size: 30px;
+    }
+
+    .btnAgregar:hover .tooltiptext, .btnAgregar3:hover .tooltiptext, .vaciarTabla:hover .tooltiptext {
+        visibility: visible;
+        opacity: 1;
+        font-size: 15px;
+    }
+
+    th.encabezadoTabla {
+        font-size: 25px;
+        padding-left: 85px;
+        padding-right: 85px;
+    }
+    
+    th.cancionTabla {
+        font-size: 18px;
+    }
+    
+    th.puntajeTabla {
+        font-size: 12px;
+    }
+    
+    th.comentarioTabla textarea{
+        width: 250px;
+        font-size: 12px;
+    }
+    
+    th.accionTabla button{
+        font-size: 16px;
+    }
+    
+    th.accionTabla button:hover {
+        font-size: 20px;
+    }
+
+    /*------------------------ALBUMS------------------------*/
+
+    .containerAlbums {
+        display: flex;
+        height: 720px;
+    }
+
+    .divAlbum {
+        width: 25%;
+    }
+
+    .portadaAlbum {
+        width: 175px;
+        height: 175px;
+    }
+
+    .nombreAlbum {
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 75px;
+    }
+
+    .tracks {
+        font-size: 13px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    li.track{
+        margin-left: 0px;
+        margin-bottom: 3px;
+    }
+
+    /*------------------------SHOWS------------------------*/
+
+    h1.tituloShows {
+        font-size: 65px;
+    }
+
+    .divShow {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        height: 90px;
+    }
+
+    p.fechaShow {
+        color: white;
+        font-size: 18px;
+        font-weight: 900;
+        margin-bottom: 5px;
+    }
+
+    p.lugarShow {
+        font-size: 16px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    p.infoShow {
+        color: white;
+    }
+
+    p.infoShow:hover {
+        color: black;
+    }
+
+    /*------------------------NEWSLETTER------------------------*/
+
+    h1.tituloNewsletter {
+        font-size: 30px;
+    }
+
+    div.email {
+        width: 352px;
+        height: 34px;
+    }
+    
+    .inputEmail {
+        width: 288px;
+        height: 32px;
+        font-size: 17px;
+    }
+    
+    .inputCaptcha {
+        width: 170px;
+        height: 30px;
+        font-size: 17px;
+    }
+    
+    .textoCaptcha {
+        font-size: 17px;
+        margin-top: 20px;
+    }
+    
+    .logoemail {
+        font-size: 24px;
+        margin-right: 8px;
+    }
+
+    /*------------------------STORE------------------------*/
+
+    .containerStore {
+        display: flex;
+        flex-direction: column;
+        height: 700px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bloqueStore {
+        background-color: rgb(255,255,255, 40%);
+        display: flex;
+        height: 280px;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+
+    .imgStore {
+        width: 140px;
+        height: 180px;
+        margin-top: 10px;
+    }
+
+    .nombreProductoStore {
+        font-size: 17px;
+        margin-top: 12px;
+    }
+    
+    .precioProductoStore {
+        margin-top: 3px;
+    }
+}
